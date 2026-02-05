@@ -2,9 +2,20 @@
 
 A full-stack Human Resource Management System with Employee and Attendance management.
 
+## Live Demo
+Frontend: https://hrms-mu-bay.vercel.app
+Backend: Railway-hosted Django REST API
+
 ## Tech Stack
-- **Frontend**: Next.js (React), Tailwind CSS, Shadcn UI (concepts), Sonner
-- **Backend**: Django, Django REST Framework
+- Frontend: React / Next.js
+- Backend: Django + Django REST Framework
+- Database: PostgreSQL
+- Deployment: Vercel (FE), Railway (BE)
+
+## Features
+- Employee management (CRUD)
+- Attendance tracking (Present/Absent)
+- REST APIs with validations
 
 ## Project Structure
 - `/frontend`: Next.js application
