@@ -34,6 +34,16 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:3001",
     "http://localhost:3005",
+    "https://hrms-mu-bay.vercel.app",
+]
+
+# Allow Vercel subdomains if needed
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://hrms-.*\.vercel\.app$",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://hrms-mu-bay.vercel.app",
 ]
 
 
