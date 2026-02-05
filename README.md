@@ -1,35 +1,69 @@
-# HRMS Lite
+# HRMS Lite – Full Stack Assignment
 
-A full-stack Human Resource Management System with Employee and Attendance management.
+## Project Overview
+HRMS Lite is a lightweight Human Resource Management System designed to manage basic HR operations.  
+The application allows an admin to manage employee records and track daily attendance through a clean, professional, and production-ready web interface.
 
-## Live Demo
-Frontend: https://hrms-mu-bay.vercel.app
-Backend: Railway-hosted Django REST API
+The system is built with a clear separation between frontend and backend, using RESTful APIs and persistent storage, and is deployed on cloud platforms for real-world usability.
 
-## Tech Stack
-- Frontend: React / Next.js
-- Backend: Django + Django REST Framework
-- Database: PostgreSQL
-- Deployment: Vercel (FE), Railway (BE)
+---
 
-## Features
-- Employee management (CRUD)
-- Attendance tracking (Present/Absent)
-- REST APIs with validations
+## Live Application URL
+Frontend (Live App):  
+https://hrms-mu-bay.vercel.app/
 
-## Project Structure
-- `/frontend`: Next.js application
-- `/backend`: Django API application
+Backend (API):  
+Railway-hosted Django REST API (publicly accessible)
 
-## Getting Started
+---
 
-### Backend
-1. Navigate to `backend`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run migrations: `python manage.py migrate`
-4. Start server: `python manage.py runserver`
+## GitHub Repository
+https://github.com/ankiitm2/HRMS
+
+---
+
+## Tech Stack Used
 
 ### Frontend
-1. Navigate to `frontend`
-2. Install dependencies: `npm install`
-3. Start dev server: `npm run dev`
+- React / Next.js
+- JavaScript
+- HTML5, CSS3
+- Fetch API for HTTP requests
+
+### Backend
+- Python
+- Django
+- Django REST Framework
+
+### Database
+- PostgreSQL
+
+### Deployment
+- Frontend: Vercel
+- Backend: Railway
+
+---
+
+## Features
+
+### Employee Management
+- Add new employees
+- View list of employees
+- Delete employee records
+- Validation for required fields and duplicate entries
+
+### Attendance Management
+- Mark daily attendance (Present / Absent)
+- View attendance records per employee
+- Server-side validation and error handling
+
+---
+
+## Steps to Run the Project Locally
+
+### Backend Setup (Django)
+
+1. Clone the repository
+```bash
+git clone https://github.com/ankiitm2/HRMS.git
+cd HRMS/backend
